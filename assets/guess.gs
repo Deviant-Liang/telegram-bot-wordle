@@ -251,7 +251,7 @@ function wordleSolver(){
 
   pattern = patternBYG(result)
 
-  process.push(["slate", pattern]);
+  process.push(["crane", pattern]);
 
   while(result != "GGGGG"){
     possible_words = word_remover(result, guess, possible_words, len_possible_words);
